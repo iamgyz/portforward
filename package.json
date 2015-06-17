@@ -1,0 +1,21 @@
+{
+  "name": "portforward",
+  "version": "1.0.0",
+  "description": "A portforwarding service, support both local port forwarding and remote port forwarding",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/iamgyz/portforward.git"
+  },
+  "main": "./lib/portforward",
+  "bin": "./bin/portforward",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "port-forwarding",
+    "portforwarding",
+    "portforward"
+  ],
+  "author": "GYZheng (guanggyz@gmail.com)",
+  "license": "MIT"
+}
