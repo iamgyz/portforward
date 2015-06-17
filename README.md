@@ -14,7 +14,7 @@ For example, if you want to forward port 5566(For external) to port 80(For inter
 `portforward 5566 80` 
 So `http://localhost:5566` will forward to `http://localhost:80`  
 
-#### Mode2: Remote port-forwarding  
+### Mode2: Remote port-forwarding  
 `portforward <from> <to> <remoteHost>`  
 
 Example1: if you want to forward local port 5566 to remote host `whatismyip.org` port 80
